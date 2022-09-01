@@ -179,6 +179,7 @@ function nav(path) {
 
     html += `</div></li><li class="nav-item">
     <a class="nav-link" href="${UI.link_anidb}" target="_blank">AniDB</a>
+    	<li class="nav-item">
     <a class="nav-link" href="${UI.contact_link}" target="_blank">${UI.nav_link_4}</a>
     
   </li>${UI.show_logout_button ?'<li class="nav-item"><a class="nav-link" href="/logout">Logout</a></li>': ''}`;
